@@ -1,0 +1,12 @@
+# python>=3.6
+numpy
+decorator
+attrs
+tornado
+psutil
+xgboost
+tensorflow==1.13.1
+scikit-learn
+sklearn
+scipy
+antlr4-python3-runtime
