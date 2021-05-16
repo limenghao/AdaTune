@@ -306,7 +306,6 @@ def _extract_curve_feature_log(arg):
 from .model_based_tuner import ModelOptimizer
 from .dynamic_model_based_tuner import ModelBasedTunerAda
 from .sa_model_optimizer import SimulatedAnnealingOptimizer
-from .local_model_optimizer import BestNeighborsOptimizer
 
 class RFTuner(ModelBasedTunerAda):
     def __init__(self, task, plan_size=32,
